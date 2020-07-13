@@ -45,11 +45,11 @@ Scores and performances are distributed in a folder system structured as `compos
 
 A metadata CSV file is available in the main folder with  information about file correspondances, and the title and composer of each performance.
 
-Annotations are given in tab-separated-values (TSV) files in the same folder as each performances, named as `{basename(file)}_annotations.txt`. These TSV  files can be read by Audacity to view the annotations on a corresponding audio perfomance. Paired MIDI and audio performances correspond to the same annotation file since they are exactly aligned.
+Annotations are given in tab-separated-values (TSV) files in the same folder as each performances, named as `{basename(file)}_annotations.txt`. These TSV  files can be read by Audacity (File->Import->Labels) to view the annotations on a corresponding audio perfomance. Paired MIDI and audio performances correspond to the same annotation file since they are exactly aligned.
 
 A single json in the main folder also contains all of the annotation information for every file in ASAP.
 
-It is possible that 2 versions of the same piece are in different folders if they refer to slighlty different scores (e.g. different repetitions in the performance). Even in this case, the composer and title in the metadata table will be the same for both performances.
+It is possible that 2 versions of the same piece are in different folders if they refer to slighlty different scores (e.g. different repetitions in the performance). Even in this case, the composer and title in the metadata table will be the same for both performances. For the applications where unique pieces are needed (e.g., to create a training/test dataset with not overlapping) look for the unique couple `(title,composer)`. Note that this is not the same as considering all the unique xml-score names, since in order to deal with different repetitions in performances, 2 different xml-scores may refer to the same piece (e.g., "Beethoven/Piano_sonatas/17_1/xml_score.musicxml" and "Beethoven/Piano_sonatas/17_1_no_repeat/xml_score.musicxml").
 
 
 ### Metadata table
@@ -70,28 +70,12 @@ Each row in `metadata.csv` file contains the following information:
 - **stop**: the same as start, but for the end of the maestro performances
 
 
-
-<!-- - **beat_downbeat_position**: a list of triples `(annotation_type,performance_midi_annotation, score_midi_annotation)` where 
-    - `annotation_type` is either "beat" or "downbeat",
-    - `performance_midi_annotation` is the time in second of the annotation in the midi performance
-    - `score_midi_annotation` is the time in second of the annotation in the midi score
-- **key**: a list of triples `(key, performance_midi_time, score_midi_time)` where
-    - `key` is an integer `-12<key<12` where a negative number denotes the number of flats and a positive number the number of sharps
-    - performance_midi_time: the time in the performance where the key change
-    - score_midi_time: the time in the midi score where the key change
-- **time_signature**: a list of triples `(time_signature, performance_midi_time, score_midi_time)` where
-    - `time signature` is a string `"numerator/denominator"`
-    - performance_midi_time: the time in the performance where the time signature change
-    - score_midi_time: the time in the midi score where the time_signature change
-- **midi2midi_alignment_path**: a path to the a file containing the note to note alignment between the midi performance and the midi score. This file was created using the Nakamura alignment tool  -->
-
-
 ### Annotation json
 In `asap_annotations.json` the first group of keys are the path of the MIDI performance files in ASAP.
 Every performance has the following keys:
 - **performance_beats** : a list of beat positions in seconds
 - **performance_downbeats** : a list of downbeat positions in seconds
-- **performance_beats_type** : a dictionary where the annotation time is the key and the value is either "db"(downbeat), "b" (beat) or "bR" (in cases where standard notation rules are not followed---e.g. rubato---and we cannot determine the exact beat position)
+- **performance_beats_type** : a dictionary where the annotation time is the key and the value is either "db"(downbeat), "b" (beat) or "bR" (in cases where standard notation rules are not followed---e.g. rubato or pitckup measures in the middle of the score---and we cannot determine the exact beat position)
 - **perf_time_signatures** : a dictionary where the annotation time is the key and the value is a couple [`time_signature_string`,`number_of_beats`]. `number_of_beats`  is an integer specifying the number of beats per measure. For compound meters, there is not a universal agreement on the number of beats; here we refer to  https://dictionary.onmusic.org/appendix/topics/meters, and annotate e.g., 6/8 with 2 beats per measure.} 
 - **perf_key_signatures** :  a dictionary where the annotation time is the key and the value is a couple [`key_signature_number`,`number_of_sharps`]. The first value is an integer in [0,11] marking the tonic of the key signature (if it is major) with C = 0. The second is an integer in [-11,11] where negative numbers mark the number of flats and positive numbers mark the number of sharps. Note that we only annotate the key \emph{signature}, and not the key, since modes are not annotated in scores, so we cannot distinguish between, e.g., a major key and it's relative minor.
 - **midi_score_beats** : same as perf_beats, but on the MIDI score
@@ -100,12 +84,51 @@ Every performance has the following keys:
 - **midi_score_time_signatures** : same as perf_time_signatures, but on the MIDI score
 - **midi_score_key_signatures** : same as perf_key_signatures, but on the MIDI score
 - **downbeats_score_map** : a list of number of measures in the score (starting from 0, counting also any pickup measures) that correspond to each downbeat in the MIDI score. In case multiple measures correspond to the same downbeat (e.g., for a split measure in the score), the values in the list are in the form "number1-number2-number3-..."
-- **score_and_performance_aligned** : True if the MIDI score and the performance have the same number of annotations. In case it is false, the performance can still be used for beat tracking tasks, but not for full transcription
+- **score_and_performance_aligned** : True if the MIDI score and the performance have the same number of annotations. In case it is false, the performance can still be used for beat tracking tasks, but not for full transcription. This happens for 29 performances and the cause is case some beats skypped by the player due to a mistake or an incomplete performance.
 - **manually_checked** : if the annotations were manually checked
 
 
 ### TSV annotation
 For each performance and MIDI score we provide a tab-separated value (TSV) file of the position (in seconds) of each beat, downbeat, time signature change, and key signature change.  These files can be read by Audacity to view the annotations on a corresponding audio perfomance. Each line in the TSV file begins with 2 identical columns containing the time in seconds corresponding to the annotation, followed by a 3rd column containing the label:
-- **Beats and downbeats**: annotated with either `b` (for beats), `db` (for downbeats) or `bR` (for beats in bars whose notes' total duration is not equal to a full bar). The latter case can occur in ``rubato'' measures, in pickup measures in the middle of the pieces, or in incorrect measures (more details in Section~\ref{sec:data_cleaning}).
+- **Beats and downbeats**: annotated with either `b` (for beats), `db` (for downbeats) or `bR` (in cases where standard notation rules are not followed---e.g. rubato or pitckup measures in the middle of the score---and we cannot determine the exact beat position)
 - **time signature changes**: the time signature as a string (e.g., `4/4`).
 - **key changes** (k in [-11,11]): the number of accidentals in the key signature, where 0 is none, positive numbers count sharps and negative numbers count flats.
+
+
+## Usage examples
+
+```python
+import pandas as pd
+from pathlib import Path
+import json
+BASE_PATH= "../"
+
+#get a list of performances such as there are not 2 performances of the same piece
+df = pd.read_csv(Path(BASE_PATH,"metadata.csv"))
+unique_df = df.drop_duplicates(subset=["title","composer"])
+unique_performance_list = unique_df["midi_performance"].tolist()
+
+#get the downbeat_list of a performance of Bach Fugue_bwv_848
+midi_path = df.loc[df.title=="Fugue_bwv_848","midi_performance"].iloc[0]
+with open(Path('../asap_annotations.json')) as json_file:
+    json_data = json.load(json_file)
+db_list = json_data[midi_path]["performance_downbeats"]
+
+#same task, but using the TSV file
+annotation_path = df.loc[df.title=="Fugue_bwv_848","performance_annotations"].iloc[0]
+ann_df = pd.read_csv(Path(BASE_PATH,annotation_path),header=None, names=["time","time2","type"],sep='\t')
+db_list = [row["time"] for i,row in ann_df.iterrows() if row["type"].split(",")[0]=="db"]
+
+#get all pieces with time signature changes
+with open(Path('../asap_annotations.json')) as json_file:
+    json_data = json.load(json_file)
+tsc_pieces = [p for p in json_data.keys() if len(json_data[p]["perf_time_signatures"])>1 ]
+
+```
+
+## Limits of the dataset
+- The scores were written by non professional, and altough we manually corrected them to filter out most of of the incorrect notation, they still present some problems. Our suggestion is to use the corrected annotations provided in the TSV and in the JSON and avoid to extract them again from the score.
+
+- In certain cases (e.g., pickup measures in the middle of the score, rubato measures, complex embellishments) it is not possible to estabilish the position of the beat from the score. In our annotations we choose to mark those beats as "bR".
+- 29 performances are not aligned with the score. The cause is an incomplete performance or the player missing some beats due to a mistake. Altough not good for AMT and score production, those performances were manually checked and are still usable for beat/downbeat tracking. This information is in the json file.
+- We created this dataset to target MIR tasks such as beat/downbeat tracking, key signature estimation, time signature estimation. We haven't explored other tasks such as voice separations, beaming/tuplet creation, expressive performance rendering. It is surely possible to perform them with the information from the xml-scores and our alignment, but we haven't test if the data is of a sufficient quality for those tasks.
