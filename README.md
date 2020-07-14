@@ -69,19 +69,19 @@ It is possible that 2 versions of the same piece are in different folders if the
 ### Metadata table
 Each row in `metadata.csv` file contains the following information:
 
-- **midi_performance**: the path of the midi performance. This file is either a (possibly cut) copy of a file from the maestro dataset or a midi file from the Yamaha e-competition dataset
-- **title**: a title that (along with composer) uniquely identifies each piece in the dataset
 - **composer**: a common name for the composer of a piece
-- **xml_score**: the path of the corresponding MusicXML score 
+- **title**: a title that (along with composer) uniquely identifies each piece in the dataset
+- **folder**: the path of the directory containing all scores and performances of the piece
+- **xml_score**: the path of the MusicXML score of a piece
 - **midi_score**: the path of the score in MIDI format 
 - **midi_performance** : the path of the MIDI performance
-- **audio_performance**: the path of the audio file (if one exists)
-- **midi_score_annotations** : the path of the TSV annotations of the MIDI score
 - **performance_anotations** : the path of the TSV annotations on the performances (audio and MIDI) 
-- **maestro_midi_performance** : the path of the MIDI performance in the maestro dataset
-- **maestro_audio_performance** : the path of the audio performance in the maestro dataset
-- **start**: can be a time in seconds or `None`. In the former case it specify where to cut the maestro performances (audio and midi) to match the annotations. If `None`, the performance files are not cut.
-- **stop**: the same as start, but for the end of the maestro performances
+- **midi_score_annotations** : the path of the TSV annotations of the MIDI score
+- **maestro_midi_performance** : the path of the MIDI performance in the MAESTRO dataset (if it exists)
+- **maestro_audio_performance** : the path of the audio performance in the MAESTRO dataset (if it exists)
+- **start**: If not blank, specifies a time in seconds where the original MAESTRO performance (audio and MIDI) has been cut to match the annotations. The ASAP performance at time 0 will match the original MAESTRO performance at this time
+- **end**: The same as start, but for the end of the original MAESTRO performance. The end of the ASAP performance is at this time in the original MAESTRO performance
+- **audio_performance**: the path of the (properly cut) audio file in the ASAP dataset (if one exists)
 
 
 ### Annotation json
@@ -98,7 +98,7 @@ Every performance has the following keys:
 - **midi_score_time_signatures** : same as perf_time_signatures, but on the MIDI score
 - **midi_score_key_signatures** : same as perf_key_signatures, but on the MIDI score
 - **downbeats_score_map** : a list of number of measures in the score (starting from 0, counting also any pickup measures) that correspond to each downbeat in the MIDI score. In case multiple measures correspond to the same downbeat (e.g., for a split measure in the score), the values in the list are in the form "number1-number2-number3-..."
-- **score_and_performance_aligned** : True if the MIDI score and the performance have the same number of annotations. In case it is false, the performance can still be used for beat tracking tasks, but not for full transcription. This happens for 29 performances and the cause is case some beats skypped by the player due to a mistake or an incomplete performance.
+- **score_and_performance_aligned** : True if the MIDI score and the performance have the same number of annotations. If this is false, the performance can still be used for beat tracking tasks, but not for full transcription. It is False for only 29 performances where some beats are skipped by the performer due to a mistake or an incomplete performance.
 - **manually_checked** : if the annotations were manually checked
 
 
@@ -115,7 +115,7 @@ For each performance and MIDI score we provide a tab-separated value (TSV) file 
 import pandas as pd
 from pathlib import Path
 import json
-BASE_PATH= "../"
+BASE_PATH= "."
 
 #get a list of performances such as there are not 2 performances of the same piece
 df = pd.read_csv(Path(BASE_PATH,"metadata.csv"))
@@ -124,7 +124,7 @@ unique_performance_list = unique_df["midi_performance"].tolist()
 
 #get the downbeat_list of a performance of Bach Fugue_bwv_848
 midi_path = df.loc[df.title=="Fugue_bwv_848","midi_performance"].iloc[0]
-with open(Path('../asap_annotations.json')) as json_file:
+with open(Path(BASE_PATH,'asap_annotations.json')) as json_file:
     json_data = json.load(json_file)
 db_list = json_data[midi_path]["performance_downbeats"]
 
@@ -134,15 +134,15 @@ ann_df = pd.read_csv(Path(BASE_PATH,annotation_path),header=None, names=["time",
 db_list = [row["time"] for i,row in ann_df.iterrows() if row["type"].split(",")[0]=="db"]
 
 #get all pieces with time signature changes
-with open(Path('../asap_annotations.json')) as json_file:
+with open(Path(BASE_PATH,'asap_annotations.json')) as json_file:
     json_data = json.load(json_file)
 tsc_pieces = [p for p in json_data.keys() if len(json_data[p]["perf_time_signatures"])>1 ]
 
 ```
 
 ## Limits of the dataset
-- The scores were written by non professional, and altough we manually corrected them to filter out most of of the incorrect notation, they still present some problems. Our suggestion is to use the corrected annotations provided in the TSV and in the JSON and avoid to extract them again from the score.
+- The scores were written by non-professionals, and although we manually corrected them to filter out most of the incorrect notation, they still present some problems. Our suggestion is to use the corrected annotations provided in the TSV and in the JSON files rather than extracting them again from the score.
 
 - In certain cases (e.g., pickup measures in the middle of the score, rubato measures, complex embellishments) it is not possible to estabilish the position of the beat from the score. In our annotations we choose to mark those beats as "bR".
 - 29 performances are not aligned with the score. The cause is an incomplete performance or the player missing some beats due to a mistake. Altough not good for AMT and score production, those performances were manually checked and are still usable for beat/downbeat tracking. This information is in the json file.
-- We created this dataset to target MIR tasks such as beat/downbeat tracking, key signature estimation, time signature estimation. We haven't explored other tasks such as voice separations, beaming/tuplet creation, expressive performance rendering. It is surely possible to perform them with the information from the xml-scores and our alignment, but we haven't test if the data is of a sufficient quality for those tasks.
+- We created this dataset to target MIR tasks such as beat/downbeat tracking, key signature estimation, time signature estimation. We haven't explored other tasks such as voice separation, beaming/tuplet creation, and expressive performance rendering. It is surely possible to perform them with the information from the xml-scores and our alignment, but we haven't tested if the data is of a sufficient quality for those tasks.
