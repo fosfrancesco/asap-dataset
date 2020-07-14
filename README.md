@@ -97,7 +97,7 @@ Every performance has the following keys:
 - **midi_score_beats_type** : same as perf_beats_type, but on the MIDI score
 - **midi_score_time_signatures** : same as perf_time_signatures, but on the MIDI score
 - **midi_score_key_signatures** : same as perf_key_signatures, but on the MIDI score
-- **downbeats_score_map** : a list of number of measures in the score (starting from 0, counting also any pickup measures) that correspond to each downbeat in the MIDI score. In case multiple measures correspond to the same downbeat (e.g., for a split measure in the score), the values in the list are in the form "number1-number2-number3-..."
+- **downbeats_score_map** : a list of measure numbers in the score (starting from 0, including any pickup measures) corresponding to each downbeat in the MIDI score. For example, if the first number in this list is 1, that means that the first annotated downbeat corresponds to measure number 1 in the score. In case multiple score measures correspond to the same downbeat (e.g., for a measure that is split in the score for some reason), the values in the list are a string in the form "number1-number2-number3-..."
 - **score_and_performance_aligned** : True if the MIDI score and the performance have the same number of annotations. If this is false, the performance can still be used for beat tracking tasks, but not for full transcription. It is False for only 29 performances where some beats are skipped by the performer due to a mistake or an incomplete performance.
 - **manually_checked** : if the annotations were manually checked
 
