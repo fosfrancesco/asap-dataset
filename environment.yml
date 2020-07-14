@@ -1,0 +1,11 @@
+name: asap
+channels:
+  - default
+  - conda-forge
+dependencies:
+ - python=3.6
+ - numba=0.48
+ - numpy=1.18
+ - pandas=1.0.3
+ - jupyter=1.0.0
+ - librosa=0.7.2

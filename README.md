@@ -7,13 +7,27 @@ The audio files are not distributed in this repository. To obtain them:
   - librosa
   - pandas
   - numpy
+- If you use conda, you can install the dependencies with:
+  - `conda env create -f environment.yml`
 - download the Maestro dataset v2.0.0 https://magenta.tensorflow.org/datasets/maestro
-- unzip it the data
+- unzip the data
 - run `python initialize_dataset.py -m [maestro location]`
 - The maestro directory and zip file can now be safely deleted
 
 The script has been tested in Windows, Linux and Mac OS with python 3.6, and the libraries librosa v0.7.2 and pandas v1.0.3.
-  
+
+#### Citing
+If you use this dataset in any research, please cite the relevant paper:
+
+```
+@inproceedings{asap-dataset,
+  title={{ASAP}: a dataset of aligned scores and performances for piano transcription},
+  author={Foscarin, Francesco and McLeod, Andrew and Rigaux, Philippe and Jacquemard, Florent and Sakai, Masahiko},
+  booktitle={International Society for Music Information Retrieval Conference {(ISMIR)}},
+  year={2020}
+}
+```
+
 
 ## Dataset Content
 ASAP  contains  **236  distinct  musical  scores**  and  **1068  performances**  of  Western  classical  piano  music from 15 different composers (see Table below for a breakdown).
