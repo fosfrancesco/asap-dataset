@@ -24,7 +24,8 @@ If you use this dataset in any research, please cite the relevant paper:
   title={{ASAP}: a dataset of aligned scores and performances for piano transcription},
   author={Foscarin, Francesco and McLeod, Andrew and Rigaux, Philippe and Jacquemard, Florent and Sakai, Masahiko},
   booktitle={International Society for Music Information Retrieval Conference {(ISMIR)}},
-  year={2020}
+  year={2020},
+  pages={534--541}
 }
 ```
 
