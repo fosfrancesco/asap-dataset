@@ -32,7 +32,7 @@ If you use this dataset in any research, please cite the relevant paper:
 ## Dataset Content
 ASAP  contains  **236  distinct  musical  scores**  and  **1068  performances**  of  Western  classical  piano  music from 15 different composers (see Table below for a breakdown).
 
-| Composer     	| XML/MIDI Score | MIDI Performance	| Audio Performance 	|
+| Composer     	| MIDI Performance | Audio Performance	| MIDI/XML Score 	|
 |--------------	|--------------	| ----------------------|-------------	|
 | Bach         	| 169         	| 152       | 59    	|
 | Balakirev    	| 10           	| 3        |1     	|
@@ -50,7 +50,7 @@ ASAP  contains  **236  distinct  musical  scores**  and  **1068  performances** 
 | Schubert     	| 62           	| 44        |13    	|
 | Schumann     	| 28           	| 7        |10    	|
 | Scriabin     	| 13           	| 7        |2     	|
-| **Total**     | 222           |1068      | 520    |
+| **Total**     | 1068           |520      | 222    |
 
 <!--548 of the recordings are available as MIDI only, and others (520) are provided as MIDI and audio recordings  aligned  with  approximately  3  ms  precision.    Each score corresponds with at least one performance (and usually more). Each  musical  score  is  provided  in  both  MusicXML and MIDI formats.  In the MIDI score, the position of all MIDI events are quantized to a metrical grid according to their position in the MusicXML score.  The aligned time signature and tempo change events ensure that the metrical grid of the MIDI score is identical to that of the corresponding  MusicXML  score,  aligning  with  abrupt  time417signature  and  tempo  changes,  as  well  as  gradual  tempo changes such as ritardando and accellerando.  Grace notes are represented in MIDI as notes of very short duration. Repetitions  in  the  score  are  “unfolded”  in  the  MIDI  file such that some sections of the MusicXML score may be duplicated  in  the  MIDI  score.    Except  for  performance mistakes,  there  is  a  one-to-one  correspondence  between424the notes in a MIDI performance and its associated MIDI score.-->
 
