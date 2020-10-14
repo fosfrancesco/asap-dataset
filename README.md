@@ -1,6 +1,9 @@
 # Aligned Scores and Performances (ASAP) dataset
+ASAP is a dataset of aligned musical scores (both MIDI and MusicXML) and performances (audio and MIDI), all with downbeat, beat, time signature, and key signature annotations. 
 
-#### Initialize:
+This repository contains all of the annotations, as well as all of the MIDI and MusicXML files. To get the audio files, follow the instructions below.
+
+#### Getting the Audio:
 The audio files are not distributed in this repository. To obtain them:
 - Install dependencies:
   - python 3
