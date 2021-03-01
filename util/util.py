@@ -126,6 +126,19 @@ def check_b_db_ratio(annotations_path):
         print("Exception for", annotations_path)
 
 
+def check_inverted_annotations(annotations_path):
+    "Check if annotations are saved in chronological order."
+    ann_df = pd.read_csv(annotations_path,header=None, names=["time","time2","type"],sep='\t')
+    for i,row in ann_df.iterrows():
+        if row["time"]!=row["time2"]:
+            print("Time different from time2 in",annotations_path )
+    time_list = ann_df["time"]
+    for i,t in enumerate(time_list):
+        if i!=0:
+            if t<time_list[i-1]:
+                print("Inverted annotations for",annotations_path ,"at time", t//60,"m",t%60 )
+
+
 exception_dict = {
     "Beethoven/Piano_Sonatas/29-2/xml_score.musicxml": {112:[113]},
     "Beethoven/Piano_Sonatas/29-4/xml_score.musicxml": {0:[1],2:[3,4],12:[13,14,15]},
@@ -382,3 +395,19 @@ def midi_score_and_perf_aligned(perf_annotations_path, midi_score_annotations_pa
                 if ms!= perf:
                     print("Different for perf {} at time {},{} : {},{}".format(perf_annotations_path,ms_time,perf_time,ms,perf))
         return False
+
+
+def files_exist(row,base_path):
+    fields_to_check = ['xml_score', 'midi_score','midi_performance', 'performance_annotations', 'midi_score_annotations']
+    for f in fields_to_check:
+        my_file = Path(base_path,row[f])
+        if not my_file.is_file():
+            print("File not found",my_file)
+
+
+def xmlscore_parsable_music21(score_xml_path):
+    """Check if we can parse the score with music21"""
+    try:
+        score = m21.converter.parse(score_xml_path)
+    except:
+        print("Problems parsing the xml score",score_xml_path )
