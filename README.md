@@ -153,3 +153,7 @@ tsc_pieces = [p for p in json_data.keys() if len(json_data[p]["perf_time_signatu
 
 ## License
 The dataset is made available under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Versions
+- The current version of ASAP (v1.1) has some corrections, as enumerated in the change notes on the tag [v1.1](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.1).
+- The initial version of ASAP (as it was released at ISMIR 2020) is available as [v1.0](https://github.com/fosfrancesco/asap-dataset/releases/tag/v1.0).
