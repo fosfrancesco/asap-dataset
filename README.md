@@ -34,7 +34,7 @@ If you use this dataset in any research, please cite the relevant paper:
 
 
 ## Dataset Content
-ASAP  contains  **236  distinct  musical  scores**  and  **1068  performances**  of  Western  classical  piano  music from 15 different composers (see Table below for a breakdown).
+ASAP  contains  **236  distinct  musical  scores**  and  **1067  performances**  of  Western  classical  piano  music from 15 different composers (see Table below for a breakdown).
 
 | Composer     	| MIDI Performance | Audio Performance	| MIDI/XML Score 	|
 |--------------	|--------------	| ----------------------|-------------	|
@@ -42,7 +42,7 @@ ASAP  contains  **236  distinct  musical  scores**  and  **1068  performances** 
 | Balakirev    	| 10           	| 3        |1     	|
 | Beethoven    	| 271          	| 120       |57   	  |
 | Brahms       	| 1            	| 0        |1     	|
-| Chopin       	| 290         	| 109       |34    	|
+| Chopin       	| 290         	| 109       |33    	|
 | Debussy      	| 3            	| 3        |2     	|
 | Glinka       	| 2            	| 2        |1     	|
 | Haydn        	| 44           	| 16        |11    	|
