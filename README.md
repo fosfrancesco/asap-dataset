@@ -42,7 +42,7 @@ ASAP  contains  **236  distinct  musical  scores**  and  **1067  performances** 
 | Balakirev    	| 10           	| 3        |1     	|
 | Beethoven    	| 271          	| 120       |57   	  |
 | Brahms       	| 1            	| 0        |1     	|
-| Chopin       	| 290         	| 109       |33    	|
+| Chopin       	| 289         	| 108       |34    	|
 | Debussy      	| 3            	| 3        |2     	|
 | Glinka       	| 2            	| 2        |1     	|
 | Haydn        	| 44           	| 16        |11    	|
@@ -54,7 +54,7 @@ ASAP  contains  **236  distinct  musical  scores**  and  **1067  performances** 
 | Schubert     	| 62           	| 44        |13    	|
 | Schumann     	| 28           	| 7        |10    	|
 | Scriabin     	| 13           	| 7        |2     	|
-| **Total**     | 1068           |520      | 222    |
+| **Total**     | 1067           |519      | 222    |
 
 <!--548 of the recordings are available as MIDI only, and others (520) are provided as MIDI and audio recordings  aligned  with  approximately  3  ms  precision.    Each score corresponds with at least one performance (and usually more). Each  musical  score  is  provided  in  both  MusicXML and MIDI formats.  In the MIDI score, the position of all MIDI events are quantized to a metrical grid according to their position in the MusicXML score.  The aligned time signature and tempo change events ensure that the metrical grid of the MIDI score is identical to that of the corresponding  MusicXML  score,  aligning  with  abrupt  time417signature  and  tempo  changes,  as  well  as  gradual  tempo changes such as ritardando and accellerando.  Grace notes are represented in MIDI as notes of very short duration. Repetitions  in  the  score  are  “unfolded”  in  the  MIDI  file such that some sections of the MusicXML score may be duplicated  in  the  MIDI  score.    Except  for  performance mistakes,  there  is  a  one-to-one  correspondence  between424the notes in a MIDI performance and its associated MIDI score.-->
 
