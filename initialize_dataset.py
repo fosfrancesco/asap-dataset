@@ -61,7 +61,7 @@ def clip_and_copy_audio(in_path, out_path, start=None, end=None, padding=0.5):
             zeros = np.zeros((data.shape[0], samples))
             data = np.asfortranarray(np.concatenate( (zeros,data),axis=1))
     
-    sf.write(file=out_path, data=data.astype(np.float32).T, samplerate=sr, subtype='PCM_24')
+    sf.write(file=out_path, data=data.astype(np.float32).T, samplerate=sr, subtype='FLOAT')
 
 
 
