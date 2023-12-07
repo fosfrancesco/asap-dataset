@@ -8,4 +8,4 @@ dependencies:
  - numpy=1.18
  - pandas=1.0.3
  - jupyter=1.0.0
- - librosa=0.7.2
+ - librosa=0.10.1
