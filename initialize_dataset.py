@@ -7,6 +7,7 @@ import librosa
 from shutil import copyfile
 import numpy as np
 from pathlib import Path   
+import soundfile as sf
     
     
 def clip_and_copy_audio(in_path, out_path, start=None, end=None, padding=0.5):
@@ -60,7 +61,7 @@ def clip_and_copy_audio(in_path, out_path, start=None, end=None, padding=0.5):
             zeros = np.zeros((data.shape[0], samples))
             data = np.asfortranarray(np.concatenate( (zeros,data),axis=1))
     
-    librosa.output.write_wav(out_path, y=data.astype(np.float32), sr=sr, norm=False)
+    sf.write(file=out_path, data=data.astype(np.float32).T, samplerate=sr, subtype='FLOAT')
 
 
 
