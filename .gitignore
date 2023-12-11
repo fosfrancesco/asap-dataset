@@ -1,0 +1,4 @@
+# ignore any file ending with wav
+*.wav
+/asap_beat/*
+
