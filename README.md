@@ -17,7 +17,8 @@ The audio files are not distributed in this repository. To obtain them:
 - run `python initialize_dataset.py -m [maestro location]`
 - The maestro directory and zip file can now be safely deleted
 
-The script has been tested in Windows, Linux and Mac OS with python 3.6, and the libraries librosa v0.7.2 and pandas v1.0.3.
+The script has been tested in Windows, Linux and Mac OS with python 3.9, and the libraries librosa v0.10 and pandas v1.0.3.
+If you are using older librosa and python versions, consider using [version 1.2](https://github.com/fosfrancesco/asap-dataset/tree/v1.2).
 
 #### Citing
 If you use this dataset in any research, please cite the relevant paper:
@@ -56,18 +57,18 @@ ASAP  contains  **236  distinct  musical  scores**  and  **1067  performances** 
 | Scriabin     	| 13           	| 7        |2     	|
 | **Total**     | 1067           |519      | 222    |
 
-<!--548 of the recordings are available as MIDI only, and others (520) are provided as MIDI and audio recordings  aligned  with  approximately  3  ms  precision.    Each score corresponds with at least one performance (and usually more). Each  musical  score  is  provided  in  both  MusicXML and MIDI formats.  In the MIDI score, the position of all MIDI events are quantized to a metrical grid according to their position in the MusicXML score.  The aligned time signature and tempo change events ensure that the metrical grid of the MIDI score is identical to that of the corresponding  MusicXML  score,  aligning  with  abrupt  time417signature  and  tempo  changes,  as  well  as  gradual  tempo changes such as ritardando and accellerando.  Grace notes are represented in MIDI as notes of very short duration. Repetitions  in  the  score  are  “unfolded”  in  the  MIDI  file such that some sections of the MusicXML score may be duplicated  in  the  MIDI  score.    Except  for  performance mistakes,  there  is  a  one-to-one  correspondence  between424the notes in a MIDI performance and its associated MIDI score.-->
+<!--548 of the recordings are available as MIDI only, and others (520) are provided as MIDI and audio recordings  aligned  with  approximately  3  ms  precision.    Each score corresponds with at least one performance (and usually more). Each  musical  score  is  provided  in  both  MusicXML and MIDI formats.  In the MIDI score, the position of all MIDI events is quantized to a metrical grid according to their position in the MusicXML score.  The aligned time signature and tempo change events ensure that the metrical grid of the MIDI score is identical to that of the corresponding  MusicXML  score,  aligning  with  abrupt  time417signature  and  tempo  changes,  as  well  as  gradual  tempo changes such as ritardando and accellerando.  Grace notes are represented in MIDI as notes of very short duration. Repetitions  in  the  score  are  “unfolded”  in  the  MIDI  file such that some sections of the MusicXML score may be duplicated  in  the  MIDI  score.    Except  for  performance mistakes,  there  is  a  one-to-one  correspondence  between the notes in a MIDI performance and its associated MIDI score.-->
 
 
 Scores and performances are distributed in a folder system structured as `composer/subgroup/piece` where the `piece` directory contains the XML and MIDI score, plus all of the performances of a specific piece. `subgroup` contains additional hierarchies (e.g., `Bach` contains subgroups `Fugues` and `Preludes`).
 
 A metadata CSV file is available in the main folder with  information about file correspondances, and the title and composer of each performance.
 
-Annotations are given in tab-separated-values (TSV) files in the same folder as each performances, named as `{basename(file)}_annotations.txt`. These TSV  files can be read by Audacity (File->Import->Labels) to view the annotations on a corresponding audio perfomance. Paired MIDI and audio performances correspond to the same annotation file since they are exactly aligned.
+Annotations are given in tab-separated-values (TSV) files in the same folder as each performances, named as `{basename(file)}_annotations.txt`. These TSV  files can be read by Audacity (File->Import->Labels) to view the annotations on a corresponding audio performance. Paired MIDI and audio performances correspond to the same annotation file since they are exactly aligned.
 
 A single json in the main folder also contains all of the annotation information for every file in ASAP.
 
-It is possible that 2 versions of the same piece are in different folders if they refer to slighlty different scores (e.g. different repetitions in the performance). Even in this case, the composer and title in the metadata table will be the same for both performances. For the applications where unique pieces are needed (e.g., to create a training/test dataset with not overlapping) look for the unique couple `(title,composer)`. Note that this is not the same as considering all the unique xml-score names, since in order to deal with different repetitions in performances, 2 different xml-scores may refer to the same piece (e.g., "Beethoven/Piano_sonatas/17_1/xml_score.musicxml" and "Beethoven/Piano_sonatas/17_1_no_repeat/xml_score.musicxml").
+It is possible that 2 versions of the same piece are in different folders if they refer to slightly different scores (e.g. different repetitions in the performance). Even in this case, the composer and title in the metadata table will be the same for both performances. For the applications where unique pieces are needed (e.g., to create a training/test dataset with not overlapping) look for the unique couple `(title,composer)`. Note that this is not the same as considering all the unique xml-score names, since in order to deal with different repetitions in performances, 2 different xml-scores may refer to the same piece (e.g., "Beethoven/Piano_sonatas/17_1/xml_score.musicxml" and "Beethoven/Piano_sonatas/17_1_no_repeat/xml_score.musicxml").
 
 
 ### Metadata table
@@ -107,7 +108,7 @@ Every performance has the following keys:
 
 ### TSV annotation
 For each performance and MIDI score we provide a tab-separated value (TSV) file of the position (in seconds) of each beat, downbeat, time signature change, and key signature change.  These files can be read by Audacity to view the annotations on a corresponding audio perfomance. Each line in the TSV file begins with 2 identical columns containing the time in seconds corresponding to the annotation, followed by a 3rd column containing the label:
-- **Beats and downbeats**: annotated with either `b` (for beats), `db` (for downbeats) or `bR` (in cases where standard notation rules are not followed---e.g. rubato or pitckup measures in the middle of the score---and we cannot determine the exact beat position)
+- **Beats and downbeats**: annotated with either `b` (for beats), `db` (for downbeats) or `bR` (in cases where standard notation rules are not followed---e.g. rubato or pickup measures in the middle of the score---and we cannot determine the exact beat position)
 - **time signature changes**: the time signature as a string (e.g., `4/4`).
 - **key changes** (k in [-11,11]): the number of accidentals in the key signature, where 0 is none, positive numbers count sharps and negative numbers count flats.
 
@@ -146,9 +147,9 @@ tsc_pieces = [p for p in json_data.keys() if len(json_data[p]["perf_time_signatu
 ## Limits of the dataset
 - The scores were written by non-professionals, and although we manually corrected them to filter out most of the incorrect notation, they still present some problems. Our suggestion is to use the corrected annotations provided in the TSV and in the JSON files rather than extracting them again from the score.
 
-- In certain cases (e.g., pickup measures in the middle of the score, rubato measures, complex embellishments) it is not possible to estabilish the position of the beat from the score. In our annotations we choose to mark those beats as "bR".
-- 31 performances are not aligned with the score. The cause is an incomplete performance or the player missing some beats due to a mistake. Altough not good for AMT and score production, those performances were manually checked and are still usable for beat/downbeat tracking. This information is in the json file.
-- We created this dataset to target MIR tasks such as beat/downbeat tracking, key signature estimation, time signature estimation. We haven't explored other tasks such as voice separation, beaming/tuplet creation, and expressive performance rendering. It is surely possible to perform them with the information from the xml-scores and our alignment, but we haven't tested if the data is of a sufficient quality for those tasks.
+- In certain cases (e.g., pickup measures in the middle of the score, rubato measures, complex embellishments) it is not possible to establish the position of the beat from the score. In our annotations, we choose to mark those beats as "bR".
+- 31 performances are not aligned with the score. The cause is an incomplete performance or the player missing some beats due to a mistake. Although not good for AMT and score production, those performances were manually checked and are still usable for beat/downbeat tracking. This information is in the json file.
+- We created this dataset to target MIR tasks such as beat/downbeat tracking, key signature estimation, time signature estimation. We haven't explored other tasks such as voice separation, beaming/tuplet creation, and expressive performance rendering. It is surely possible to perform them with the information from the xml-scores and our alignment, but we haven't tested if the data is of sufficient quality for those tasks.
 
 ## License
 The dataset is made available under a [Creative Commons Attribution Non-Commercial Share-Alike 4.0 (CC BY-NC-SA 4.0) license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
