@@ -73,16 +73,16 @@ def anndict_to_beats(anndict, output_path, number_of_beats):
             f.write(str(time) + '\t' + str(pos) + '\n')
 
 # save audio and beat annotations in tsv .beats format
-for k,v in no_br_pieces.items():
-    audio_performance_path = df[df["midi_performance"]==k]["audio_performance"].values[0]
-    path_flattened = audio_performance_path.replace('/','_')[:-4]
-    ann_path = str(Path("asap_beat","annotations","beats",f"{path_flattened}.beats"))
-    audio_path = str(Path("asap_beat","audio",f"{path_flattened}.flac"))
-    # save audio
-    audio, sr = sf.read(audio_performance_path)
-    sf.write(audio_path, audio, sr)
-    # save beat annotations
-    anndict_to_beats(v["performance_beats_type"], ann_path, list(v["perf_time_signatures"].values())[0][1])
+# for k,v in no_br_pieces.items():
+#     audio_performance_path = df[df["midi_performance"]==k]["audio_performance"].values[0]
+#     path_flattened = audio_performance_path.replace('/','_')[:-4]
+#     ann_path = str(Path("asap_beat","annotations","beats",f"{path_flattened}.beats"))
+#     audio_path = str(Path("asap_beat","audio",f"{path_flattened}.flac"))
+#     # save audio
+#     audio, sr = sf.read(audio_performance_path)
+#     sf.write(audio_path, audio, sr)
+#     # save beat annotations
+#     anndict_to_beats(v["performance_beats_type"], ann_path, list(v["perf_time_signatures"].values())[0][1])
 
 df = df[df["midi_performance"].isin(no_br_pieces.keys())]
 # add a columns which is the concatenation of title and composer columns
@@ -113,5 +113,11 @@ print("Composer val", Counter(val_df["composer"].tolist()))
 trainval_df["audio"] = trainval_df["audio_performance"].apply(lambda x: x.replace('/','_')[:-4])
 # save the split in a csv file with two columns: name and split
 
-trainval_df[["audio","split"]].to_csv(Path(BASE_PATH,"asap_beat","asap_split.csv"), index=False)
+# trainval_df[["audio","split"]].to_csv(Path(BASE_PATH,"asap_beat","asap_split.csv"), index=False)
+
+# check if there is an audio file for each row
+for i, row in trainval_df.iterrows():
+    if not Path(BASE_PATH,"asap_beat","audio",f"{row['audio']}.flac").exists():
+        print(row['audio'])
+print("Done")
 
