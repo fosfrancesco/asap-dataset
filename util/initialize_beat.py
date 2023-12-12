@@ -8,6 +8,8 @@ import json
 import pandas as pd
 import soundfile as sf
 from collections import OrderedDict
+from sklearn.model_selection import train_test_split
+from collections import Counter
 
 BASE_PATH = Path("./")
 
@@ -81,3 +83,35 @@ for k,v in no_br_pieces.items():
     sf.write(audio_path, audio, sr)
     # save beat annotations
     anndict_to_beats(v["performance_beats_type"], ann_path, list(v["perf_time_signatures"].values())[0][1])
+
+df = df[df["midi_performance"].isin(no_br_pieces.keys())]
+# add a columns which is the concatenation of title and composer columns
+df["title_composer"] = df["title"] + "_" + df["composer"]
+# drop Scriabin (because it is a single piece and it will mess with stratify. It is also a bit complex piece)
+df = df[df["composer"]!="Scriabin"]
+# create a split such that different performances of the same piece are not in the same split
+unique_df = df.drop_duplicates(subset=["title_composer"])
+
+# split in train, validation 
+train_uidx, val_uidx = train_test_split(unique_df.index, test_size=0.15, stratify=unique_df["composer"].tolist(), random_state=42)
+print(Counter(unique_df["composer"].tolist()))
+print("Len unique train", len(train_uidx), "Len unique val", len(val_uidx), "Ratio", len(val_uidx)/len(train_uidx))
+
+# take all rows in df which has the same title composer of rows in unique_df
+train_df = df[df["title_composer"].isin(unique_df.loc[train_uidx]["title_composer"].tolist())]
+val_df = df[df["title_composer"].isin(unique_df.loc[val_uidx]["title_composer"].tolist())]
+# concatenate the two dataframes in a single dataframe and add the column split
+train_df["split"] = "train"
+val_df["split"] = "val"
+trainval_df = pd.concat([train_df,val_df])
+print("Len train", len(train_df), "Len val", len(val_df), "Ratio", len(val_df)/len(train_df))
+print("Len separated", len(train_df)+len(val_df), "Len concatenated", len(trainval_df))
+print("Composer train", Counter(train_df["composer"].tolist()))
+print("Composer val", Counter(val_df["composer"].tolist()))
+
+# add a column in the dataframe with the flattened path
+trainval_df["audio"] = trainval_df["audio_performance"].apply(lambda x: x.replace('/','_')[:-4])
+# save the split in a csv file with two columns: name and split
+
+trainval_df[["audio","split"]].to_csv(Path(BASE_PATH,"asap_beat","asap_split.csv"), index=False)
+
