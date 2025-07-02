@@ -75998,20 +75998,13 @@
           <step>B</step>
           <octave>5</octave>
           </pitch>
-        <duration>617</duration>
+        <duration>720</duration>
         <voice>1</voice>
         <type>half</type>
         <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
           <fermata type="upright"/>
           </notations>
         </note>
@@ -76021,46 +76014,19 @@
           <step>B</step>
           <octave>6</octave>
           </pitch>
-        <duration>617</duration>
+        <duration>720</duration>
         <voice>1</voice>
         <type>half</type>
         <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
         <stem>down</stem>
         <staff>1</staff>
         </note>
-      <backup>
-        <duration>2</duration>
-        </backup>
       <direction placement="below">
         <direction-type>
           <pedal type="stop" relative-x="10.47" relative-y="-180.83"/>
           </direction-type>
         <staff>1</staff>
         </direction>
-      <note print-object="no">
-        <rest/>
-        <duration>103</duration>
-        <voice>1</voice>
-        <type size="cue">eighth</type>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
-        <staff>1</staff>
-        <notations>
-          <tuplet type="stop"/>
-          </notations>
-        </note>
-      <forward>
-        <duration>2</duration>
-        </forward>
       <backup>
         <duration>720</duration>
         </backup>
@@ -76070,20 +76036,13 @@
           <alter>1</alter>
           <octave>4</octave>
           </pitch>
-        <duration>617</duration>
+        <duration>720</duration>
         <voice>5</voice>
         <type>half</type>
         <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         <notations>
-          <tuplet type="start" bracket="no" show-number="none"/>
           <fermata type="upright"/>
           </notations>
         </note>
@@ -76094,16 +76053,10 @@
           <alter>1</alter>
           <octave>4</octave>
           </pitch>
-        <duration>617</duration>
+        <duration>720</duration>
         <voice>5</voice>
         <type>half</type>
         <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         </note>
@@ -76113,16 +76066,10 @@
           <step>B</step>
           <octave>4</octave>
           </pitch>
-        <duration>617</duration>
+        <duration>720</duration>
         <voice>5</voice>
         <type>half</type>
         <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         </note>
@@ -76133,40 +76080,13 @@
           <alter>1</alter>
           <octave>5</octave>
           </pitch>
-        <duration>617</duration>
+        <duration>720</duration>
         <voice>5</voice>
         <type>half</type>
         <dot/>
-        <dot/>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
         <stem>up</stem>
         <staff>2</staff>
         </note>
-      <backup>
-        <duration>2</duration>
-        </backup>
-      <note print-object="no">
-        <rest/>
-        <duration>103</duration>
-        <voice>5</voice>
-        <type size="cue">eighth</type>
-        <time-modification>
-          <actual-notes>7</actual-notes>
-          <normal-notes>6</normal-notes>
-          <normal-type>eighth</normal-type>
-          </time-modification>
-        <staff>2</staff>
-        <notations>
-          <tuplet type="stop"/>
-          </notations>
-        </note>
-      <forward>
-        <duration>2</duration>
-        </forward>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
         </barline>
