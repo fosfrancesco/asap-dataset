@@ -84,10 +84,7 @@
         <staff-layout number="2">
           <staff-distance>68</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <divisions>1024</divisions>
         <key>
@@ -98,7 +95,7 @@
           <beats>6</beats>
           <beat-type>8</beat-type>
         </time>
-        <staves>3</staves>
+        <staves>2</staves>
         <clef number="1">
           <sign>G</sign>
           <line>2</line>
@@ -107,11 +104,7 @@
           <sign>G</sign>
           <line>2</line>
         </clef>
-        <clef number="3">
-          <sign>G</sign>
-          <line>2</line>
-        </clef>
-      </attributes>
+        </attributes>
       <direction placement="above">
         <direction-type>
           <words default-y="30" font-family="FreeSerif" font-size="16" font-weight="bold">Assez vif.    </words>
@@ -384,16 +377,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="2" width="381">
       <note default-x="14">
@@ -663,16 +647,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="3" width="349">
       <note default-x="14">
@@ -930,16 +905,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="4" width="380">
       <note default-x="13">
@@ -1209,16 +1175,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="5" width="365">
       <print new-system="yes">
@@ -1232,10 +1189,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="79">
         <rest/>
         <duration>512</duration>
@@ -1480,16 +1434,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="6" width="460">
       <forward>
@@ -1785,16 +1730,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="7" width="270">
       <attributes>
@@ -2031,16 +1967,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="8" width="459">
       <forward>
@@ -2336,16 +2263,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="9" width="424">
       <print new-system="yes">
@@ -2359,10 +2277,7 @@
         <staff-layout number="2">
           <staff-distance>83</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="1">
           <sign>F</sign>
@@ -2606,16 +2521,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="10" width="257">
       <attributes>
@@ -2817,16 +2723,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="11" width="426">
       <forward>
@@ -3126,16 +3023,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="12" width="448">
       <direction placement="below">
@@ -3522,16 +3410,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="13" width="508">
       <print new-system="yes">
@@ -3545,10 +3424,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="2">
           <sign>F</sign>
@@ -3946,16 +3822,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="14" width="398">
       <attributes>
@@ -4288,16 +4155,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="15" width="309">
       <note default-x="13">
@@ -4560,16 +4418,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="16" width="340">
       <attributes>
@@ -4946,16 +4795,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="17" width="578">
       <print new-system="yes">
@@ -4969,10 +4809,7 @@
         <staff-layout number="2">
           <staff-distance>71</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="90">
         <pitch>
           <step>D</step>
@@ -5335,16 +5172,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="18" width="490">
       <note default-x="13">
@@ -5634,16 +5462,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="19" width="487">
       <note default-x="13">
@@ -5887,16 +5706,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="20" width="398">
       <print new-page="yes">
@@ -5910,10 +5720,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="1">
           <sign>F</sign>
@@ -6205,16 +6012,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="21" width="280">
       <note default-x="16">
@@ -6459,16 +6257,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="22" width="284">
       <direction placement="below">
@@ -6727,16 +6516,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="23" width="309">
       <note default-x="17">
@@ -6992,16 +6772,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="24" width="284">
       <note default-x="16">
@@ -7251,16 +7022,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="25" width="418">
       <print new-system="yes">
@@ -7274,10 +7036,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="82">
         <rest/>
         <duration>512</duration>
@@ -7531,16 +7290,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="26" width="277">
       <forward>
@@ -7704,16 +7454,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="27" width="277">
       <forward>
@@ -7877,16 +7618,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="28" width="277">
       <direction placement="above">
@@ -8011,16 +7743,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="29" width="306">
       <forward>
@@ -8145,16 +7868,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="30" width="414">
       <print new-system="yes">
@@ -8168,10 +7882,7 @@
         <staff-layout number="2">
           <staff-distance>109</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>72</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>3</beats>
@@ -8449,16 +8160,7 @@
           <slur number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>1536</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>1536</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="31" width="597">
       <attributes>
@@ -9092,16 +8794,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="32" width="543">
       <note default-x="16">
@@ -9745,16 +9438,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="33" width="550">
       <print new-system="yes">
@@ -9768,10 +9452,7 @@
         <staff-layout number="2">
           <staff-distance>116</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="1">
           <sign>F</sign>
@@ -10287,16 +9968,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="34" width="530">
       <direction placement="below">
@@ -10814,16 +10486,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="35" width="475">
       <attributes>
@@ -11220,16 +10883,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="36" width="899">
       <print new-system="yes">
@@ -11243,10 +10897,7 @@
         <staff-layout number="2">
           <staff-distance>94</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>9</beats>
@@ -11830,16 +11481,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="37" width="655">
       <attributes>
@@ -12423,16 +12065,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="38" width="584">
       <print new-page="yes">
@@ -12446,10 +12079,7 @@
         <staff-layout number="2">
           <staff-distance>116</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="102">
         <pitch>
           <step>D</step>
@@ -13105,16 +12735,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="39" width="470">
       <direction placement="below">
@@ -13631,16 +13252,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="40" width="500">
       <direction placement="below">
@@ -14157,16 +13769,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="41" width="586">
       <print new-system="yes">
@@ -14180,10 +13783,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>6</beats>
@@ -14579,16 +14179,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="42" width="471">
       <note default-x="36">
@@ -14968,15 +14559,6 @@
         <duration>3072</duration>
         <voice>4</voice>
         <staff>2</staff>
-      </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
       </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
@@ -15374,16 +14956,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="44" width="1024">
       <print new-system="yes">
@@ -15397,10 +14970,7 @@
         <staff-layout number="2">
           <staff-distance>76</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="112">
         <rest/>
         <duration>512</duration>
@@ -16035,16 +15605,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3088</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="45" width="530">
       <note default-x="16">
@@ -16426,16 +15987,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="46" width="777">
       <print new-system="yes">
@@ -16449,10 +16001,7 @@
         <staff-layout number="2">
           <staff-distance>77</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="112">
         <rest/>
         <duration>512</duration>
@@ -17062,16 +16611,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3088</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="47" width="388">
       <note default-x="16">
@@ -17429,16 +16969,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="48" width="389">
       <note default-x="17">
@@ -17796,16 +17327,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="49" width="574">
       <print new-system="yes">
@@ -17819,10 +17341,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -18133,16 +17652,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="50" width="463">
       <note default-x="15">
@@ -18428,16 +17938,7 @@
         <dot/>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="51" width="518">
       <note default-x="15">
@@ -18770,16 +18271,7 @@
         <dot/>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="52" width="896">
       <print new-page="yes">
@@ -18793,10 +18285,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -19404,16 +18893,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="53" width="658">
       <note default-x="37">
@@ -19846,16 +19326,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="54" width="873">
       <print new-system="yes">
@@ -19869,10 +19340,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="125">
         <pitch>
           <step>G</step>
@@ -20471,16 +19939,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="55" width="681">
       <note default-x="37">
@@ -20913,15 +20372,6 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
       </barline>
@@ -20939,10 +20389,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <key>
           <fifths>2</fifths>
@@ -21539,16 +20986,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="57" width="693">
       <note default-x="24">
@@ -21981,16 +21419,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="58" width="481">
       <print new-system="yes">
@@ -22004,10 +21433,7 @@
         <staff-layout number="2">
           <staff-distance>81</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>74</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="2">
           <sign>F</sign>
@@ -22496,31 +21922,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="92">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="333">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="431">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="59" width="371">
       <note default-x="17">
@@ -22830,16 +22232,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="60" width="331">
       <attributes>
@@ -23184,16 +22577,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="61" width="371">
       <note default-x="16">
@@ -23496,16 +22880,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="62" width="384">
       <print new-system="yes">
@@ -23519,10 +22894,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="2">
           <sign>F</sign>
@@ -23826,16 +23198,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="63" width="340">
       <note default-x="14">
@@ -24111,16 +23474,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="64" width="259">
       <note default-x="16">
@@ -24353,16 +23707,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="65" width="340">
       <note default-x="14">
@@ -24638,16 +23983,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="66" width="232">
       <forward>
@@ -24830,16 +24166,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="67" width="336">
       <print new-page="yes">
@@ -24853,10 +24180,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>82</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <forward>
         <duration>3072</duration>
         <voice>1</voice>
@@ -25037,16 +24361,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="68" width="260">
       <forward>
@@ -25243,16 +24558,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="69" width="260">
       <forward>
@@ -25440,16 +24746,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="70" width="406">
       <attributes>
@@ -25708,16 +25005,7 @@
         <offset>512</offset>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="71" width="293">
       <attributes>
@@ -25814,16 +25102,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="72" width="324">
       <print new-system="yes">
@@ -25837,10 +25116,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>79</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="90">
         <pitch>
           <step>F</step>
@@ -25971,16 +25247,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="73" width="249">
       <direction placement="below">
@@ -26054,16 +25321,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="74" width="234">
       <note default-x="16">
@@ -26167,31 +25425,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note default-x="43">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="162">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="234">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="75" width="228">
       <direction placement="below">
@@ -26588,16 +25822,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="76" width="291">
       <note default-x="16">
@@ -27068,16 +26293,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="77" width="228">
       <note default-x="17">
@@ -27432,16 +26648,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="78" width="309">
       <print new-system="yes">
@@ -27455,10 +26662,7 @@
         <staff-layout number="2">
           <staff-distance>84</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>84</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <rest>
           <display-step>A</display-step>
@@ -27933,16 +27137,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="79" width="183">
       <note default-x="16">
@@ -28093,16 +27288,7 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="80" width="192">
       <note default-x="15">
@@ -28220,31 +27406,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="13">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="94">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="162">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="81" width="206">
       <note default-x="16">
@@ -28319,16 +27481,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="82" width="190">
       <direction placement="below">
@@ -28762,16 +27915,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="83" width="284">
       <note default-x="16">
@@ -29346,16 +28490,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="84" width="191">
       <note default-x="17">
@@ -29768,16 +28903,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="85" width="325">
       <print new-system="yes">
@@ -29791,10 +28917,7 @@
         <staff-layout number="2">
           <staff-distance>68</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>84</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <rest>
           <display-step>F</display-step>
@@ -29960,16 +29083,7 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="86" width="219">
       <note default-x="15">
@@ -30082,31 +29196,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="13">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="106">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="184">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="87" width="193">
       <note default-x="13">
@@ -30171,16 +29261,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="88" width="252">
       <direction placement="below">
@@ -30315,31 +29396,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="14">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="161">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="216">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="89" width="248">
       <direction placement="below">
@@ -30771,16 +29828,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="90" width="319">
       <note default-x="17">
@@ -31330,16 +30378,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="91" width="326">
       <print new-system="yes">
@@ -31353,10 +30392,7 @@
         <staff-layout number="2">
           <staff-distance>72</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>69</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <rest>
           <display-step>F</display-step>
@@ -31534,16 +30570,7 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="92" width="260">
       <direction>
@@ -31638,16 +30665,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="93" width="271">
       <note default-x="17">
@@ -31802,16 +30820,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="94" width="241">
       <note default-x="13">
@@ -31955,16 +30964,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="95" width="193">
       <note default-x="13">
@@ -32037,16 +31037,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="96" width="263">
       <note default-x="15">
@@ -32181,31 +31172,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="13">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="168">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="226">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="97" width="360">
       <print new-page="yes">
@@ -32219,10 +31186,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>75</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -32669,16 +31633,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="98" width="414">
       <note default-x="17">
@@ -33253,16 +32208,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="99" width="238">
       <note default-x="17">
@@ -33657,16 +32603,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="100" width="336">
       <note default-x="17">
@@ -34154,16 +33091,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="101" width="206">
       <direction placement="below">
@@ -34430,16 +33358,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="102" width="513">
       <print new-system="yes">
@@ -34453,10 +33372,7 @@
         <staff-layout number="2">
           <staff-distance>92</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>86</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <rest>
           <display-step>G</display-step>
@@ -34761,16 +33677,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="103" width="221">
       <note>
@@ -34853,16 +33760,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="104" width="221">
       <note>
@@ -34931,16 +33829,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="105" width="290">
       <direction placement="below">
@@ -35181,16 +34070,7 @@
         <type>quarter</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="106" width="309">
       <direction placement="below">
@@ -35453,16 +34333,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="107" width="365">
       <print new-system="yes">
@@ -35476,10 +34347,7 @@
         <staff-layout number="2">
           <staff-distance>69</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>66</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="above">
         <direction-type>
           <dynamics default-y="68">
@@ -35779,16 +34647,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="108" width="288">
       <note default-x="16">
@@ -36067,16 +34926,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="109" width="288">
       <note default-x="16">
@@ -36415,16 +35265,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="110" width="288">
       <note default-x="17">
@@ -36722,16 +35563,7 @@
           <slur number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="111" width="326">
       <note default-x="17">
@@ -37049,16 +35881,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="112" width="443">
       <print new-system="yes">
@@ -37072,10 +35895,7 @@
         <staff-layout number="2">
           <staff-distance>77</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>66</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>E</step>
@@ -37432,16 +36252,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="113" width="362">
       <note default-x="17">
@@ -37800,16 +36611,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="114" width="363">
       <note default-x="16">
@@ -38181,16 +36983,7 @@
           <slur number="2" placement="above" type="start"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="115" width="387">
       <note default-x="16">
@@ -38549,16 +37342,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="116" width="437">
       <print new-system="yes">
@@ -38572,10 +37356,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>E</step>
@@ -38846,16 +37627,7 @@
           <slur number="2" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="117" width="360">
       <direction placement="below">
@@ -39221,16 +37993,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="118" width="360">
       <note default-x="16">
@@ -39541,16 +38304,7 @@
           <slur number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="119" width="396">
       <note print-object="no">
@@ -39944,16 +38698,7 @@
           <slur number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="120" width="442">
       <print new-page="yes">
@@ -39967,10 +38712,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <sound dynamics="67"/>
       <note default-x="93">
         <pitch>
@@ -40341,16 +39083,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="121" width="365">
       <note default-x="16">
@@ -40716,16 +39449,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="122" width="366">
       <note default-x="17">
@@ -41087,16 +39811,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="123" width="381">
       <note default-x="17">
@@ -41412,16 +40127,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="124" width="406">
       <print new-system="yes">
@@ -41435,10 +40141,7 @@
         <staff-layout number="2">
           <staff-distance>93</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>F</step>
@@ -41742,16 +40445,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="125" width="664">
       <attributes>
@@ -42060,16 +40754,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="126" width="484">
       <direction placement="above">
@@ -42575,16 +41260,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="127" width="858">
       <print new-system="yes">
@@ -42598,10 +41274,7 @@
         <staff-layout number="2">
           <staff-distance>124</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <wedge default-y="-100" spread="15" type="diminuendo"/>
@@ -43126,16 +41799,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="128" width="696">
       <attributes>
@@ -43648,16 +42312,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="129" width="716">
       <print new-system="yes">
@@ -43671,10 +42326,7 @@
         <staff-layout number="2">
           <staff-distance>92</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-85">
@@ -44196,16 +42848,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="130" width="504">
       <direction placement="below">
@@ -44405,16 +43048,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="131" width="334">
       <attributes>
@@ -44533,16 +43167,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="132" width="345">
       <print new-system="yes">
@@ -44556,10 +43181,7 @@
         <staff-layout number="2">
           <staff-distance>95</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="92">
         <pitch>
           <step>F</step>
@@ -44655,16 +43277,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="133" width="295">
       <direction placement="below">
@@ -44928,16 +43541,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="134" width="301">
       <note default-x="16">
@@ -45256,16 +43860,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="135" width="301">
       <direction placement="below">
@@ -45555,16 +44150,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="136" width="313">
       <note default-x="16">
@@ -45842,16 +44428,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="137" width="421">
       <print new-page="yes">
@@ -45865,10 +44442,7 @@
         <staff-layout number="2">
           <staff-distance>72</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="above">
         <direction-type>
           <words default-y="55" font-family="FreeSerif" font-size="10.3" font-style="italic">Plus lent</words>
@@ -46147,16 +44721,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="138" width="344">
       <note default-x="16">
@@ -46435,16 +45000,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="139" width="469">
       <note print-object="no">
@@ -46826,16 +45382,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="140" width="320">
       <direction placement="below">
@@ -47095,16 +45642,7 @@
           <slur number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="141" width="446">
       <print new-system="yes">
@@ -47118,10 +45656,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>66</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>E</step>
@@ -47427,16 +45962,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="142" width="369">
       <note default-x="17">
@@ -47772,16 +46298,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="143" width="365">
       <note default-x="16">
@@ -48122,16 +46639,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="144" width="375">
       <note default-x="16">
@@ -48487,16 +46995,7 @@
           <slur number="2" placement="above" type="start"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="145" width="415">
       <print new-system="yes">
@@ -48510,10 +47009,7 @@
         <staff-layout number="2">
           <staff-distance>83</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>125</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>E</step>
@@ -48860,16 +47356,7 @@
           <tied type="start"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="146" width="283">
       <note default-x="16">
@@ -49142,16 +47629,7 @@
           <slur number="2" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="147" width="283">
       <note default-x="16">
@@ -49505,16 +47983,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="148" width="297">
       <direction placement="below">
@@ -49896,16 +48365,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="149" width="277">
       <note default-x="16">
@@ -50193,16 +48653,7 @@
           <slur number="2" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="150" width="494">
       <print new-system="yes">
@@ -50216,10 +48667,7 @@
         <staff-layout number="2">
           <staff-distance>88</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-100">
@@ -50534,16 +48982,7 @@
           <slur number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="151" width="349">
       <direction placement="below">
@@ -50897,16 +49336,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="152" width="354">
       <note default-x="16">
@@ -51234,16 +49664,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="153" width="358">
       <note default-x="17">
@@ -51568,16 +49989,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="154" width="396">
       <print new-system="yes">
@@ -51591,10 +50003,7 @@
         <staff-layout number="2">
           <staff-distance>103</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>A</step>
@@ -51888,16 +50297,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="155" width="401">
       <note default-x="16">
@@ -52191,16 +50591,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="156" width="758">
       <attributes>
@@ -52491,16 +50882,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="157" width="861">
       <print new-page="yes">
@@ -52514,10 +50896,7 @@
         <staff-layout number="2">
           <staff-distance>70</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>68</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <sound dynamics="124"/>
       <note default-x="93">
         <pitch>
@@ -53062,16 +51441,7 @@
           <arpeggiate default-x="-12" number="2"/>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="158" width="693">
       <note default-x="14">
@@ -53646,16 +52016,7 @@
           <arpeggiate default-x="-12" number="2"/>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="159" width="934">
       <print new-system="yes">
@@ -53669,10 +52030,7 @@
         <staff-layout number="2">
           <staff-distance>82</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>80</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>B</step>
@@ -54244,16 +52602,7 @@
           <arpeggiate default-x="-12" number="2"/>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="160" width="621">
       <attributes>
@@ -54827,16 +53176,7 @@
           <arpeggiate default-x="-13" number="2"/>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="161" width="527">
       <print new-system="yes">
@@ -54850,10 +53190,7 @@
         <staff-layout number="2">
           <staff-distance>78</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <wedge default-y="-75" spread="15" type="diminuendo"/>
@@ -54998,16 +53335,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="162" width="568">
       <direction placement="below">
@@ -55315,16 +53643,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="163" width="460">
       <note default-x="13">
@@ -55569,16 +53888,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="164" width="478">
       <print new-system="yes">
@@ -55592,10 +53902,7 @@
         <staff-layout number="2">
           <staff-distance>135</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="1">
           <sign>G</sign>
@@ -55760,16 +54067,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="165" width="404">
       <note default-x="15">
@@ -55929,15 +54227,6 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
       </barline>
@@ -56414,16 +54703,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="167" width="599">
       <print new-system="yes">
@@ -56437,10 +54717,7 @@
         <staff-layout number="2">
           <staff-distance>108</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <forward>
         <duration>2048</duration>
         <voice>1</voice>
@@ -56881,16 +55158,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="168" width="471">
       <attributes>
@@ -57195,16 +55463,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="169" width="484">
       <forward>
@@ -57491,16 +55750,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="170" width="796">
       <print new-page="yes">
@@ -57514,10 +55764,7 @@
         <staff-layout number="2">
           <staff-distance>110</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>9</beats>
@@ -57993,16 +56240,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="171" width="758">
       <forward>
@@ -58469,16 +56707,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="172" width="588">
       <print new-system="yes">
@@ -58492,10 +56721,7 @@
         <staff-layout number="2">
           <staff-distance>112</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>6</beats>
@@ -58858,16 +57084,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="173" width="397">
       <forward>
@@ -59144,16 +57361,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="174" width="569">
       <direction placement="below">
@@ -59564,16 +57772,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="175" width="1554">
       <print new-system="yes">
@@ -59587,10 +57786,7 @@
         <staff-layout number="2">
           <staff-distance>105</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -60848,16 +59044,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="176" width="410">
       <print new-system="yes">
@@ -60871,10 +59058,7 @@
         <staff-layout number="2">
           <staff-distance>71</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -61249,16 +59433,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="177" width="774">
       <direction placement="below">
@@ -62464,16 +60639,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3088</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="178" width="371">
       <direction placement="below">
@@ -62850,16 +61016,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="179" width="1554">
       <print new-system="yes">
@@ -62873,10 +61030,7 @@
         <staff-layout number="2">
           <staff-distance>105</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="above">
         <direction-type>
           <words default-y="113" font-family="FreeSerif" font-size="10.3" font-style="italic">glissando</words>
@@ -64407,16 +62561,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="180" width="1554">
       <print new-page="yes">
@@ -64430,10 +62575,7 @@
         <staff-layout number="2">
           <staff-distance>75</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="2">
           <sign>F</sign>
@@ -65158,15 +63300,6 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
       </barline>
@@ -65184,10 +63317,7 @@
         <staff-layout number="2">
           <staff-distance>76</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <key>
           <fifths>4</fifths>
@@ -65643,16 +63773,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="182" width="476">
       <note default-x="17">
@@ -66015,16 +64136,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="183" width="486">
       <direction placement="above">
@@ -66329,16 +64441,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="184" width="869">
       <print new-page="yes">
@@ -66352,10 +64455,7 @@
         <staff-layout number="2">
           <staff-distance>83</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="115">
         <pitch>
           <step>C</step>
@@ -66691,16 +64791,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="185" width="685">
       <direction placement="below">
@@ -67246,16 +65337,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="186" width="575">
       <print new-system="yes">
@@ -67269,10 +65351,7 @@
         <staff-layout number="2">
           <staff-distance>83</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -67766,16 +65845,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="187" width="461">
       <direction placement="below">
@@ -68321,16 +66391,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="188" width="518">
       <direction placement="below">
@@ -68826,15 +66887,6 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
       </barline>
@@ -68852,10 +66904,7 @@
         <staff-layout number="2">
           <staff-distance>76</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <key>
           <fifths>2</fifths>
@@ -69375,16 +67424,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="190" width="737">
       <direction placement="below">
@@ -69867,16 +67907,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="191" width="625">
       <print new-system="yes">
@@ -69890,10 +67921,7 @@
         <staff-layout number="2">
           <staff-distance>81</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-80">
@@ -70350,31 +68378,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="92">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="402">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="545">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="192" width="473">
       <note default-x="16">
@@ -70717,16 +68721,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="193" width="456">
       <attributes>
@@ -71108,16 +69103,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="194" width="557">
       <print new-system="yes">
@@ -71131,10 +69117,7 @@
         <staff-layout number="2">
           <staff-distance>99</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>67</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>F</step>
@@ -71503,16 +69486,7 @@
         <beam number="1">end</beam>
         <beam number="2">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="195" width="548">
       <direction placement="below">
@@ -71890,31 +69864,7 @@
           <fermata default-x="219772822" default-y="9" type="upright"/>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note default-x="14">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="324">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="497">
-        <rest/>
-        <duration>256</duration>
-        <voice>7</voice>
-        <type>16th</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="196" width="450">
       <attributes>
@@ -72212,16 +70162,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="197" width="557">
       <print new-system="yes">
@@ -72235,10 +70176,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>107</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="102">
         <pitch>
           <step>F</step>
@@ -72527,16 +70465,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="198" width="449">
       <note default-x="48">
@@ -72815,16 +70744,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="199" width="548">
       <note default-x="25">
@@ -73115,16 +71035,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="200" width="435">
       <print new-page="yes">
@@ -73138,10 +71049,7 @@
         <staff-layout number="2">
           <staff-distance>99</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>108</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="1">
           <sign>G</sign>
@@ -73434,16 +71342,7 @@
         <stem>down</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="201" width="468">
       <sound dynamics="78"/>
@@ -73777,16 +71676,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="202" width="332">
       <attributes>
@@ -74086,16 +71976,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="203" width="320">
       <note default-x="48">
@@ -74482,16 +72363,7 @@
         <dot/>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="204" width="459">
       <print new-system="yes">
@@ -74505,10 +72377,7 @@
         <staff-layout number="2">
           <staff-distance>96</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>80</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <rest/>
         <duration>512</duration>
@@ -74797,16 +72666,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="205" width="345">
       <note default-x="25">
@@ -75108,16 +72968,7 @@
         <dot/>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="206" width="402">
       <sound dynamics="78"/>
@@ -75538,16 +73389,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="207" width="349">
       <note default-x="26">
@@ -75950,16 +73792,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="208" width="554">
       <print new-system="yes">
@@ -75973,10 +73806,7 @@
         <staff-layout number="2">
           <staff-distance>80</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="126">
         <pitch>
           <step>A</step>
@@ -76457,16 +74287,7 @@
         <type>16th</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="209" width="481">
       <sound dynamics="67"/>
@@ -76778,16 +74599,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="210" width="519">
       <direction placement="below">
@@ -77219,16 +75031,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="211" width="628">
       <print new-system="yes">
@@ -77242,10 +75045,7 @@
         <staff-layout number="2">
           <staff-distance>120</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>91</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <direction placement="below">
         <direction-type>
           <dynamics default-y="-86">
@@ -77564,16 +75364,7 @@
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="212" width="927">
       <note default-x="25">
@@ -78264,16 +76055,7 @@
           </articulations>
         </notations>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="213" width="803">
       <print new-system="yes">
@@ -78287,10 +76069,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>9</beats>
@@ -78779,16 +76558,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="214" width="752">
       <direction placement="below">
@@ -79277,16 +77047,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="215" width="710">
       <print new-page="yes">
@@ -79300,10 +77061,7 @@
         <staff-layout number="2">
           <staff-distance>65</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>94</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <clef number="1">
           <sign>G</sign>
@@ -79802,16 +77560,7 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>4608</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>4608</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="216" width="417">
       <attributes>
@@ -80163,16 +77912,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="217" width="427">
       <note default-x="14">
@@ -80493,16 +78233,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="218" width="611">
       <print new-system="yes">
@@ -80516,10 +78247,7 @@
         <staff-layout number="2">
           <staff-distance>72</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>70</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <attributes>
         <time>
           <beats>3</beats>
@@ -80807,16 +78535,7 @@
           <tuplet number="1" type="stop"/>
         </notations>
       </note>
-      <backup>
-        <duration>1536</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>1536</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="219" width="353">
       <attributes>
@@ -81144,16 +78863,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="220" width="591">
       <note default-x="13">
@@ -81587,16 +79297,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="221" width="781">
       <print new-system="yes">
@@ -81610,10 +79311,7 @@
         <staff-layout number="2">
           <staff-distance>72</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>65</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="93">
         <pitch>
           <step>D</step>
@@ -82131,16 +79829,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="222" width="773">
       <note default-x="16">
@@ -82632,16 +80321,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="223" width="696">
       <print new-system="yes">
@@ -82655,10 +80335,7 @@
         <staff-layout number="2">
           <staff-distance>72</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>74</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="124">
         <pitch>
           <step>G</step>
@@ -83163,16 +80840,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="224" width="431">
       <note default-x="17">
@@ -83516,16 +81184,7 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="225" width="427">
       <attributes>
@@ -83904,16 +81563,7 @@
         <voice>4</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="226" width="492">
       <print new-system="yes">
@@ -83927,10 +81577,7 @@
         <staff-layout number="2">
           <staff-distance>81</staff-distance>
         </staff-layout>
-        <staff-layout number="3">
-          <staff-distance>120</staff-distance>
-        </staff-layout>
-      </print>
+        </print>
       <note default-x="103">
         <pitch>
           <step>C</step>
@@ -84429,16 +82076,7 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="227" width="387">
       <note default-x="26">
@@ -84804,16 +82442,7 @@
         <type>eighth</type>
         <staff>2</staff>
       </note>
-      <backup>
-        <duration>3072</duration>
-      </backup>
-      <note>
-        <rest/>
-        <duration>3072</duration>
-        <voice>7</voice>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="228" width="332">
       <attributes>
@@ -85244,31 +82873,7 @@
         <voice>5</voice>
         <staff>2</staff>
       </forward>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="20">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="210">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="284">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
-    </measure>
+      </measure>
     <!--=======================================================-->
     <measure number="229" width="343">
       <attributes>
@@ -85689,30 +83294,6 @@
         </direction-type>
         <staff>2</staff>
       </direction>
-      <backup>
-        <duration>3584</duration>
-      </backup>
-      <note default-x="14">
-        <rest/>
-        <duration>2048</duration>
-        <voice>7</voice>
-        <type>half</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="209">
-        <rest/>
-        <duration>1024</duration>
-        <voice>7</voice>
-        <type>quarter</type>
-        <staff>3</staff>
-      </note>
-      <note default-x="286">
-        <rest/>
-        <duration>512</duration>
-        <voice>7</voice>
-        <type>eighth</type>
-        <staff>3</staff>
-      </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
       </barline>
