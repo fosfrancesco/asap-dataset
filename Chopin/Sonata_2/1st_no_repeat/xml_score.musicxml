@@ -28151,9 +28151,13 @@
           <octave>4</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>whole</type>
         <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
       </note>
       <backup>
         <duration>96</duration>
@@ -28165,10 +28169,14 @@
           <octave>3</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="start"/>
         <voice>2</voice>
         <type>whole</type>
         <accidental>flat</accidental>
         <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
       </note>
       <note default-x="25">
         <chord/>
@@ -28177,9 +28185,13 @@
           <octave>4</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="start"/>
         <voice>2</voice>
         <type>whole</type>
         <staff>1</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
       </note>
       <backup>
         <duration>96</duration>
@@ -28191,9 +28203,13 @@
           <octave>1</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="start"/>
         <voice>5</voice>
         <type>whole</type>
         <staff>2</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
       </note>
       <note default-x="25">
         <chord/>
@@ -28203,9 +28219,13 @@
           <octave>2</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="start"/>
         <voice>5</voice>
         <type>whole</type>
         <staff>2</staff>
+        <notations>
+          <tied type="start"/>
+        </notations>
       </note>
     </measure>
     <!--=======================================================-->
@@ -28222,6 +28242,7 @@
           <octave>4</octave>
         </pitch>
         <duration>84</duration>
+        <tie type="stop"/>
         <tie type="start"/>
         <voice>1</voice>
         <type>half</type>
@@ -28230,6 +28251,7 @@
         <stem default-y="54">up</stem>
         <staff>1</staff>
         <notations>
+          <tied type="stop"/>
           <tied orientation="over" type="start"/>
           <slur number="1" placement="above" type="start"/>
         </notations>
@@ -28292,9 +28314,13 @@
           <octave>3</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="stop"/>
         <voice>2</voice>
         <type>whole</type>
         <staff>1</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
       </note>
       <note default-x="16">
         <chord/>
@@ -28303,9 +28329,13 @@
           <octave>4</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="stop"/>
         <voice>2</voice>
         <type>whole</type>
         <staff>1</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
       </note>
       <direction>
         <direction-type>
@@ -28323,9 +28353,13 @@
           <octave>1</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>whole</type>
         <staff>2</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
       </note>
       <note default-x="16">
         <chord/>
@@ -28335,9 +28369,13 @@
           <octave>2</octave>
         </pitch>
         <duration>96</duration>
+        <tie type="stop"/>
         <voice>5</voice>
         <type>whole</type>
         <staff>2</staff>
+        <notations>
+          <tied type="stop"/>
+        </notations>
       </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
