@@ -26291,10 +26291,10 @@
       </note>
       <direction placement="above">
         <direction-type>
-          <metronome default-y="35" font-family="EngraverTextT" font-size="10.3">
-            <beat-unit>eighth</beat-unit>
-            <beat-unit>eighth</beat-unit>
-          </metronome>
+          <!-- <metronome default-y="35" font-family="EngraverTextT" font-size="10.3"> -->
+          <!--   <beat-unit>eighth</beat-unit> -->
+          <!--   <beat-unit>eighth</beat-unit> -->
+          <!-- </metronome> -->
         </direction-type>
         <staff>1</staff>
       </direction>
